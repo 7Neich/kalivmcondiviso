@@ -11,6 +11,9 @@ print(f"{a} ** 3 = {a**3}") # potenza
 
 print(a*3.14)
 
+f=float(input("insirisci un float:").replace(",",".") )
+print(round(f, 1))
+
 
  
 
