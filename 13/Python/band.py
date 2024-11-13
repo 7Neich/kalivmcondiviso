@@ -45,8 +45,12 @@ while True:
     if risposta == "si":
         print("8ttimo")
         break
+    elif risposta == "no":
+     print("allora riprovo")
+
     else:
         print("Inserire solo si o no!!!! altrimenti non funziona, rilancia ;)")
+        break
 
 
 
